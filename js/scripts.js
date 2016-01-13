@@ -9,14 +9,12 @@ $(document).ready(function() {
     var age = $('input#ageInput').val();
 
     // branching based on age input
-    if (age >= 16) {
-      // alert('your branch works and age is set to '+age);
-      // show and hide content
-      $('.allcelebrities').children().removeClass('celebrityHidden');
-
-    } else {
-      // alert('your else branch works and age is set to '+age);
-      alert('You are not old enough to date!')
+    if (age <= 16) {
+      // prompt that you are not old enough
+      alert('You are not old enough to date!');
+    } else if (age > 16 && age < 25) {
+      // show celebrity1
+      $('.allcelebrities').children('.celebrity1').removeClass('celebrityHidden');
 
     };
 
