@@ -7,9 +7,15 @@ $(document).ready(function() {
 
     // assign the inputted age to a variable
     var age = $('input#ageInput').val();
-    alert('your button click works and age is set to '+age);
 
     // branching based on age input
+    if (age >= 21) {
+      alert('your branch works and age is set to '+age);
+
+    } else {
+      alert('your else branch works and age is set to '+age);
+
+    };
       // show and hide content
 
 
