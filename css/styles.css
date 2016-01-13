@@ -1,3 +1,8 @@
 .celebrityHidden{
   display: none;
 }
+
+.invert {
+  background-color: black;
+  color: white;
+}

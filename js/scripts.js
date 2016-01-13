@@ -38,6 +38,7 @@ $(document).ready(function() {
 
   // on event invert button is clicked, will invert colors using css rules
   $('#invertColors').click(function() {
-    alert('Your button works');
+    // alert('Your button works');
+    $('body').toggleClass("invert");
   });
 });
