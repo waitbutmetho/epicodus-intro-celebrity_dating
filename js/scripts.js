@@ -16,6 +16,14 @@ $(document).ready(function() {
       // show celebrity1
       $('.allcelebrities').children('.celebrity1').removeClass('celebrityHidden');
 
+    } else if (age > 24 && age < 65) {
+      // show celebrity2
+      $('.allcelebrities').children('.celebrity2').removeClass('celebrityHidden');
+
+    } else {
+      // show celebrity3
+      $('.allcelebrities').children('.celebrity3').removeClass('celebrityHidden');
+
     };
 
 
