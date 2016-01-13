@@ -8,6 +8,8 @@
 
 _An epicodus sample project to practice forms, branching, and use of bootstrap and jQuery._
 
+_To best see the range of function produced by branching in the js, try entering the values 10, 17, 55, and 85 into the form. Make sure to click submit._
+
 ## Setup/Installation Requirements
 
 _Fork or clone this repo and open index.html in any standard browser._
