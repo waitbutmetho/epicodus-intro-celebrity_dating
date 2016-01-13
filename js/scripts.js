@@ -32,9 +32,12 @@ $(document).ready(function() {
 
     };
 
-
     // work around for error with submitting forms without a connect server
     event.preventDefault();
   });
 
+  // on event invert button is clicked, will invert colors using css rules
+  $('#invertColors').click(function() {
+    alert('Your button works');
+  });
 });
