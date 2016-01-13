@@ -9,14 +9,16 @@ $(document).ready(function() {
     var age = $('input#ageInput').val();
 
     // branching based on age input
-    if (age >= 21) {
-      alert('your branch works and age is set to '+age);
+    if (age >= 16) {
+      // alert('your branch works and age is set to '+age);
+      // show and hide content
+      $('.allcelebrities').children().removeClass('celebrityHidden');
 
     } else {
-      alert('your else branch works and age is set to '+age);
+      // alert('your else branch works and age is set to '+age);
+      alert('You are not old enough to date!')
 
     };
-      // show and hide content
 
 
     // work around for error with submitting forms without a connect server
