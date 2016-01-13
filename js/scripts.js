@@ -4,10 +4,11 @@ $(document).ready(function() {
   // on the event submit button is clicked
   // use branching to determine which celebrity to show or hide
   $('form').submit(function(event) {
-    alert('your button click works');
 
     // assign the inputted age to a variable
-    // var age = $();
+    var age = $('input#ageInput').val();
+    alert('your button click works and age is set to '+age);
+
     // branching based on age input
       // show and hide content
 
