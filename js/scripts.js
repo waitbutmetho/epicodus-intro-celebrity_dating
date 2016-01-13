@@ -8,6 +8,12 @@ $(document).ready(function() {
     // assign the inputted age to a variable
     var age = $('input#ageInput').val();
 
+    // catches no input
+    if (!age) {
+      alert('You didn\'t enter a age');
+      return;
+    };
+
     // branching based on age input
     if (age <= 16) {
       // prompt that you are not old enough
