@@ -6,3 +6,19 @@
   background-color: black;
   color: white;
 }
+
+img {
+  width: 20%;
+}
+
+form {
+  margin-bottom: 100px;
+}
+
+#ageInput {
+  width: 250px;
+}
+
+#invertColors {
+  margin-bottom: 22px;
+}

@@ -46,5 +46,7 @@ $(document).ready(function() {
   $('#invertColors').click(function() {
     // alert('Your button works');
     $('body').toggleClass("invert");
+    $('#invertColors').toggleClass("invert");
+
   });
 });
